@@ -12,3 +12,10 @@ alias cls="clear"
 # alias for dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/git-enviroment/wsl-dotfiles/ --work-tree=$HOME'
 
+# FUNCTIONS
+
+# copy to host clipboard
+copy() {
+  clip.exe < "$1"
+}
+
