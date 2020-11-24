@@ -2,6 +2,7 @@
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias l.='ls -a | egrep "^\."'
 alias rr="rm -rf"
 alias ..="cd .."
 alias ...="cd ../.."
