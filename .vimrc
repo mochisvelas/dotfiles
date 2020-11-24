@@ -17,7 +17,10 @@ au BufRead,BufNewFile *.md set filetype=vimwiki
 autocmd BufRead,BufNewFile *.wiki setlocal spell
 
 "Set tab to 4 in assembly files
-autocmd FileType asm setlocal tabstop=5
+" autocmd FileType asm setlocal tabstop=5
+
+" display 4 spaces instead of tab in all files
+set tabstop=4
 
 set nocompatible
 filetype plugin on
