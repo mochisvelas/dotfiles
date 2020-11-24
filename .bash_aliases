@@ -21,7 +21,7 @@ alias pull='git pull origin'
 alias status='git status'
 
 # git for dotfiles
-alias config='/usr/bin/git --git-dir=$HOME/git-enviroment/wsl-dotfiles/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/git-enviroment/dotfiles/ --work-tree=$HOME'
 
 
 ### FUNCTIONS
