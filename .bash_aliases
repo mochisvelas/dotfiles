@@ -2,7 +2,7 @@
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias l.='ls -a | egrep "^\."'
+alias l.='ls -a | egrep "^\."' # list dotfiles
 alias rr="rm -rf"
 alias ..="cd .."
 alias ...="cd ../.."
@@ -10,10 +10,21 @@ alias ....="cd ../../.."
 alias reload="source ~/.bashrc"
 alias cls="clear"
 
+# git
+alias addup='git add -u'
+alias addall='git add .'
+alias branch='git branch'
+alias checkout='git checkout'
+alias commit='git commit -m'
+alias push='git push origin'
+alias pull='git pull origin'
+alias status='git status'
+
 # git for dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/git-enviroment/wsl-dotfiles/ --work-tree=$HOME'
 
-# FUNCTIONS
+
+### FUNCTIONS
 
 # copy to host clipboard
 copy() {
@@ -22,7 +33,6 @@ copy() {
 
 # archive extraction
 # usage: extract <file>
-
 extract () {
     if [ -f "$1" ] ; then
         case $1 in
