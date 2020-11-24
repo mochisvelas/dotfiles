@@ -1,1 +1,1 @@
-# wsl-dotfiles
+# dotfiles
