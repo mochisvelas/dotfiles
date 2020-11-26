@@ -29,6 +29,10 @@ alias status='git status'
 # git for dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/git/dotfiles/ --work-tree=$HOME'
 
+# shutdown or reboot
+alias ssn='sudo shutdown now'
+alias ssr='sudo reboot'
+
 
 ### FUNCTIONS
 
