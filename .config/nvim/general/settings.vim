@@ -25,4 +25,4 @@ set noshowmode
 " faster cmpletion
 set updatetime=300
 " colorscheme Monokai
-colorscheme minimalist
+"colorscheme minimalist
