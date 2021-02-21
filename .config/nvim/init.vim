@@ -23,6 +23,13 @@ endif
 "let g:vimwiki_markdown_link_ext = 1
 "au BufRead,BufNewFile *.md set filetype=vimwiki
 "autocmd BufRead,BufNewFile *.wiki setlocal spell
+"
+"set tab to navigate through coc completions
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 filetype plugin on
 function! s:check_back_space() abort
