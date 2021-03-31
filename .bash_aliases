@@ -1,3 +1,4 @@
+alias shutdown='sudo shutdown -P now'
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
