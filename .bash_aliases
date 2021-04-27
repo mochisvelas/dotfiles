@@ -1,4 +1,9 @@
+alias v='nvim'
 alias vi='nvim'
+alias vim='nvim'
+alias python='python3'
+alias pip='pip3'
+alias notebook='~/.local/bin/jupyter-notebook --no-browser'
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
